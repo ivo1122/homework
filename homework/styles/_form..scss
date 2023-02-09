@@ -1,0 +1,28 @@
+.form {
+    height: 100vh;
+    background: linear-gradient(to right,#9c27b0, #8ecdff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+}
+
+.input-control.success input{
+    border-color: green($color: #0b920d);
+}
+
+.input-control.error input{
+    border-color: red($color: #eb0606);
+}
+
+.input-control .error{
+    color: #eb0606;
+    font-size: 9px;
+    height: 13px;
+}
